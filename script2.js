@@ -14,4 +14,5 @@ const getLocalStorage = function () {
   validity.textContent = `${data.month}/${data.year}`;
   cv.textContent = data.Cv;
 };
+
 getLocalStorage();
