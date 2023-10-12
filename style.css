@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&family=Josefin+Sans:wght@300;400;600&family=Outfit:wght@400;700&family=Plus+Jakarta+Sans:wght@500;800&family=Roboto:wght@400;700&family=Space+Grotesk:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.card-container {
+  display: flex;
+}
+
+.left-part {
+  height: 100vh;
+  width: 500px;
+}
+
+.card-front {
+  position: relative;
+  height: 240px;
+  width: 450px;
+  margin-top: 110px;
+  margin-left: -300px;
+}
+
+.card-logo {
+  position: absolute;
+  margin-left: -410px;
+  margin-top: 130px;
+}
+.card-no {
+  position: absolute;
+  color: hsl(0, 0%, 100%);
+  font-size: 32px;
+  margin-top: -120px;
+  margin-left: -270px;
+}
+
+.card-no-error {
+  margin-top: -18px;
+  font-size: 12px;
+  color: hsl(0, 100%, 66%);
+  margin-bottom: 20px;
+  opacity: 0;
+}
+
+.card-personal-details {
+  display: flex;
+  justify-content: space-between;
+}
+.card-name {
+  position: absolute;
+  margin-top: -55px;
+  margin-left: -270px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+}
+
+.validity {
+  position: absolute;
+  margin-top: -55px;
+  margin-left: -10px;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+}
+.card-back {
+  position: relative;
+  height: 250px;
+  width: 450px;
+  margin-top: 400px;
+  margin-left: -350px;
+}
+
+.card-back-cv {
+  position: absolute;
+  margin-top: 510px;
+  margin-left: 650px;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  height: fit-content;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-top: 180px;
+}
+
+.card-details input {
+  height: 30px;
+  width: 450px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 22px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* .card-details input:focus {
+  border-image-source: linear-gradient(hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+  border-width: 5pt;
+  border-image-slice: 1;
+} */
+
+.card-holder {
+  text-transform: uppercase;
+  font-size: 16px;
+  height: 25px;
+  margin-bottom: 10px;
+  color: hsl(278, 68%, 11%);
+}
+
+.card-text {
+  text-transform: uppercase;
+}
+
+.card-number {
+  text-transform: uppercase;
+  font-size: 16px;
+  height: 25px;
+  margin-bottom: 10px;
+  color: hsl(278, 68%, 11%);
+}
+
+.expiry-date {
+  display: flex;
+  text-transform: uppercase;
+  height: 30px;
+  color: hsl(278, 68%, 11%);
+}
+.expiry {
+  margin-right: 110px;
+  text-transform: uppercase;
+}
+.date {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+.cvc {
+  text-transform: uppercase;
+}
+
+.date-error,
+.Cv-error {
+  font-size: 12px;
+  color: hsl(0, 100%, 66%);
+  margin-bottom: 20px;
+  opacity: 0;
+}
+
+.card-error {
+  display: flex;
+  gap: 165px;
+  font-size: 12px;
+  color: red;
+  opacity: 1;
+}
+.date input {
+  width: 100px;
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+.date .CVC {
+  width: 210px;
+  margin-left: 12px;
+}
+
+.btn {
+  height: 50px;
+  width: 450px;
+  margin-top: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(278, 68%, 11%);
+}
+
+/************************ thankyou Page *****************/
+.thankyou__section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 240px;
+  margin-left: 100px;
+  align-items: center;
+}
+
+.success_logo {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 30px;
+}
+
+.msg {
+  font-size: 30px;
+  color: hsl(278, 68%, 11%);
+  font-weight: 100;
+  margin-bottom: 30px;
+  font-family: "Space Grotesk", sans-serif;
+  font-stretch: expanded;
+}
+
+.confirmation {
+  font-size: 14px;
+  color: hsl(279, 6%, 55%);
+}
