@@ -8,6 +8,7 @@ const getLocalStorage = function () {
 
   if (!data) return;
 
+  //   console.log(data);
   cardname.textContent = data.name;
   cardNumber.textContent = data.number;
   validity.textContent = `${data.month}/${data.year}`;
